@@ -1,0 +1,45 @@
+.titleBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 480px;
+    right: 610px;
+}
+.titleText {
+    font-size: 80px;
+}
+.search-block {
+    position: absolute;
+    left:450px;
+    bottom: 450px;
+}
+.search-text-input{
+    height: 40px;
+    width: 600px;
+    position: absolute;
+    left:0px;
+    right: 5%;
+}
+.searchIcon{
+    position: absolute;
+    right: 1px;
+    top: 2%;
+    color: rgb(61, 59, 59);
+}
+.micImg{
+    position: absolute;
+    left: 580px;
+    top: 3px;
+}
+.btnBlock{
+    position: absolute;
+    bottom: 350px;
+    left: 620px;
+}
+.language{
+    position: absolute;
+    bottom: 300px;
+    left: 480px;
+    color: rgb(29, 96, 196);
+}
