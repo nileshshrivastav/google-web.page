@@ -43,3 +43,40 @@
     left: 480px;
     color: rgb(29, 96, 196);
 }
+/* for mobile phones:*/
+/* 
+@media all{
+[class*=".searchblock"]{
+    width:100%;
+    right: 1%;
+}
+} */
+
+@media screen and (max-width: 992px) {
+    .titleBlock {
+        position: absolute;
+        right: 35%;
+        bottom: 60%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .search-block {
+        position: absolute;
+        left: 25%;
+        bottom: 55%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .btnBlock {
+        position: absolute;
+        left: 43%;
+        bottom: 47%;
+    }
+}
+@media screen and (max-width: 992px) {
+.language{
+    position: absolute;
+    left: 30%;
+    bottom: 43%;
+}
+}
